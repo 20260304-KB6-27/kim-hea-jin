@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>회원가입</legend>
+        <table>
+          <tr>
+            <td style="text-align: center; font-weight: bold">
+              <label for="id">사용자 ID</label>
+            </td>
+            <td><input id="id" type="text" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">
+              <label for="pwd">비밀번호</label>
+            </td>
+            <td><input id="pwd" type="text" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">
+              <label for="pwd">비밀번호 확인</label>
+            </td>
+            <td><input id="pwd" type="text" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">
+              <label for="name">이름</label>
+            </td>
+            <td><input id="name" type="text" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">성별</td>
+            <td>
+              <input id="man" type="radio" name="gender" value="m" />
+              <label for="man">남자</label>
+              <input id="woman" type="radio" name="gender" value="w" />
+              <label for="woman">여자</label>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">취미</td>
+            <td>
+              <input id="soccer" type="checkbox" name="hobby" value="s" />
+              <label for="soccer">축구</label>
+              <input id="baseball" type="checkbox" name="hobby" value="b" />
+              <label for="baseball">야구</label>
+              <input id="volleyball" type="checkbox" name="hobby" value="v" />
+              <label for="volleyball">배구</label>
+              <input id="basketball" type="checkbox" name="hobby" value="k" />
+              <label for="basketball">농구</label>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">
+              <label for="email">email</label>
+            </td>
+            <td><input id="email" type="text" /></td>
+          </tr>
+          <tr>
+            <td style="text-align: center; font-weight: bold">역할</td>
+            <td>
+              <select>
+                <option>ADIMN</option>
+                <option>관리자</option>
+                <option>일반회원</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" value="확인" />
+        <input type="reset" value="다시쓰기" />
+      </fieldset>
+    </form>
+  </body>
+</html>
