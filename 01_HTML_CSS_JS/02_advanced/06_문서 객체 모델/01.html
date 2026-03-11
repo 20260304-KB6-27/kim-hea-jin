@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      window.onload = function () {
+        // button element id로 가져오기
+        let submit = document.getElementById('btn');
+
+        // button onclick function 정의
+        submit.onclick = function () {
+          // input element id로 가져와 value를 name에 저장
+          let name = document.getElementById('name').value;
+          console.log(name);
+        };
+      };
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <label for="name">이름:</label>
+      <input id="name" name="name" type="text" size="30" />
+      <input id="btn" type="button" value="전송" />
+    </form>
+  </body>
+</html>
