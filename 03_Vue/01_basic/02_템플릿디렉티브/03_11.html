@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue3 03-11Composition</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      잔고: <input v-model="balance" />
+      <br />
+      <span v-if="balance > 1000000">Gold</span>
+      <span v-else-if="balance >= 500000">Silver</span>
+      <span v-else-if="balance >= 200000">Bronze</span>
+      <span v-else="balance">Basic</span>
+    </div>
+
+    <script>
+      const { createApp, ref } = Vue;
+
+      createApp({
+        setup() {
+          const balance = ref(0);
+          return { balance };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>
