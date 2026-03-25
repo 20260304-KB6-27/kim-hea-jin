@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  color: #333;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.post-item {
+  cursor: pointer;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.post-item:hover {
+  background: #f4f4f4;
+}
+.post-content {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button:hover {
+  background: #ff4f4f;
+}
