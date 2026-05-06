@@ -1,11 +1,11 @@
-package basic.ch18.sec02;
+package lecture;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-public class WriteExample {
+public class ex01_WriteExample {
   // FileOutputStream
   // - 기본 파일 입출력 스트림
   // - 바이트 단위로 파일에 데이터 저장하는 스트림

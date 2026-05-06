@@ -1,4 +1,4 @@
-package basic.ch18.sec06;
+package lecture;
 
 // 색상 반전
 
@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class InvertImageExample {
+public class ex06_InvertImageExample {
   public static void main(String[] args) throws IOException {
 
     // 이미지 경로

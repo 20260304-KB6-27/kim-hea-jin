@@ -1,9 +1,9 @@
-package basic.ch18.sec06;
+package lecture;
 
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
-public class PrintStreamExample {
+public class ex03_PrintStreamExample {
   public static void main(String[] args) throws Exception {
 
     // 기본 스트림

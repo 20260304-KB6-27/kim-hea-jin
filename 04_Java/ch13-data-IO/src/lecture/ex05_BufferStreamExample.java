@@ -1,9 +1,9 @@
-package basic.ch18.sec06;
+package lecture;
 
 import java.io.*;
 
 // Buffer Stream (보조 스트림) 추가
-public class BufferStreamExample {
+public class ex05_BufferStreamExample {
   public static void main(String[] args) throws Exception {
 
     // 기본 입출력 스트림

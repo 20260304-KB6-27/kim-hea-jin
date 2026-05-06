@@ -1,8 +1,8 @@
-package basic.ch18.sec06;
+package lecture;
 
 import java.io.*;
 
-public class CharacterConvertStreamExample {
+public class ex04_CharacterConvertStreamExample {
   public static void main(String[] args) throws Exception {
 
     String str = "문자 변환 스트림을 사용합니다.";
@@ -18,7 +18,7 @@ public class CharacterConvertStreamExample {
 
     InputStream is = new FileInputStream("resource/test.txt");
 
-    // 바이트 스트림 -> 문자열 스트림
+    // 바이트 스트림 -> 문자열 스트림 (문자 변환 보조 스트림)
     Reader reader = new InputStreamReader(is, "UTF-8");
 
     // data 읽어올 공간
