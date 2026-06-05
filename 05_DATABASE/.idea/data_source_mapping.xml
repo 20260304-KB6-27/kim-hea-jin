@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/01_DB_INTRO/user.sql" value="264dd62d-b9f5-4749-aea7-ca99c44fe976" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/00_DML.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/01_SELECT.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/02_ORDER_BY.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/03_WHERE.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/04_Keyword.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/05_GROUP_BY.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/lecture/06_SUBQUERY.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/task_advanced/01_sqldb.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/task_advanced/02_world.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/task_advanced/03_employees.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/task_basic/01_employee.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/task_basic/02_sqlbd.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/02_SQL_기본/task_basic/03_world.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/01_auto_increment.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/02_delete_drop_truncate.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/03_builtin_function/01_String.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/03_builtin_function/02_Numeric.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/03_builtin_function/03_Date.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/03_builtin_function/04_Control.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/03_builtin_function/05_Cast.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/04_JOIN/01_INNER_JOIN.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/04_JOIN/02_OUTER_JOIN.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/04_JOIN/03_CROSS_JOIN.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/04_JOIN/04_SELF_JOIN.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/04_JOIN/05_UNION.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/04_JOIN/06_IN.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/advanced/employees.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/advanced/sqldb.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/03_SQL_심화/basic/sqldb.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/04_TABLE_VIEW/advanced/01_tabledb.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/04_TABLE_VIEW/advanced/02_employeesdb.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/04_TABLE_VIEW/basic/01_ddl.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/04_TABLE_VIEW/basic/02_dml.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/04_TABLE_VIEW/basic/03_ddl.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/04_TABLE_VIEW/basic/04_view.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
+    <file url="file://$PROJECT_DIR$/05_INDEX/advanced/01_sqldb.sql" value="8924b1d4-50d0-4756-9ce9-94f4d0c27605" />
   </component>
 </project>
