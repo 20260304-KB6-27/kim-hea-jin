@@ -37,6 +37,7 @@ public class TravelDaoImpl implements TravelDao{
     }
 
 
+    // 이미지 추가
     @Override
     public void insertImage(TravelImageVO image) {
 
@@ -54,6 +55,7 @@ public class TravelDaoImpl implements TravelDao{
     }
 
 
+    // 전체 개수 조회
     @Override
     public int getTotalCount() {
 
@@ -96,7 +98,7 @@ public class TravelDaoImpl implements TravelDao{
     }
 
 
-    // 목록 전체 조회
+    // 전체 목록 조회
     @Override
     public List<TravelVO> getTravels() {
         List<TravelVO> travels = new ArrayList<>();  // 결과를 담아줄 List
@@ -136,7 +138,7 @@ public class TravelDaoImpl implements TravelDao{
     }
 
 
-    // 페이징 된 목록 처리
+    // 페이지별 목록 조회
     @Override
     public List<TravelVO> getTravels(int page) {
 
@@ -199,7 +201,7 @@ public class TravelDaoImpl implements TravelDao{
         return travels;
     }
 
-
+    // 단건 조회
     @Override
     public Optional<TravelVO> getTravel(Long no) {
         TravelVO travel = null;
