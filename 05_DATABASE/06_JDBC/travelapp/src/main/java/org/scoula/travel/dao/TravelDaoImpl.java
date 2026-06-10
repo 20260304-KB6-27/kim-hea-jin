@@ -84,8 +84,7 @@ public class TravelDaoImpl implements TravelDao{
         String sql = "select distinct district from tbl_travel order by district";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql);
-            ResultSet rs = pstmt.executeQuery();
-        ) {
+            ResultSet rs = pstmt.executeQuery()) {
             while (rs.next()) {
                 // 단일 컬럼(district)만 조회
                 String district = rs.getString("district");
