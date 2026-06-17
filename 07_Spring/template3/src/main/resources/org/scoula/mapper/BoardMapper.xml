@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--BoardMapper interface-->
+<!--namespace: 경로 + 인터페이스 패키지명-->
+<mapper namespace="org.scoula.mapper.BoardMapper">
+
+    <select id="selectAllByMapper" resultType="org.scoula.domain.BoardVO">
+        <!-- CDATA 색션: 내부의 모든 내용을 하나의 문자열로 취급 -->
+        <![CDATA[
+        select * from tbl_board_ex
+        ]]>
+    </select>
+
+</mapper>
+
+<!--mapper 기본 틀-->
+<!--<mapper namespace="연결하고싶은 인터페이스 경로 + 이름">-->
+
+<!--    <select id="추상메서드명" resultType="반환타입">-->
+<!--        SQL-->
+<!--    </select>-->
+
+<!--</mapper>-->
