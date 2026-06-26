@@ -1,8 +1,8 @@
 package org.scoula.config;
 
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -12,35 +12,27 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
+@Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = {
-        "org.scoula.exception",
         "org.scoula.controller",
-        "org.scoula.board.controller",
-        "org.scoula.weather.controller"
+        "org.scoula.exception",
 })
 public class ServletConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry
-                .addResourceHandler("/resources/**")
+        registry.addResourceHandler("/resources/**")
                 .addResourceLocations("/resources/");
-        registry.addResourceHandler("/swagger-ui.html")
-                .addResourceLocations("classpath:/META-INF/resources/");
-        registry.addResourceHandler("/webjars/**")
-                .addResourceLocations("classpath:/META-INF/resources/webjars/");
-        registry.addResourceHandler("/swagger-resources/**")
-                .addResourceLocations("classpath:/META-INF/resources/");
-        registry.addResourceHandler("/v2/api-docs")
-                .addResourceLocations("classpath:/META-INF/resources/");
     }
 
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
+
         InternalResourceViewResolver bean = new InternalResourceViewResolver();
 
         bean.setViewClass(JstlView.class);
+
         bean.setPrefix("/WEB-INF/views/");
         bean.setSuffix(".jsp");
 
@@ -50,6 +42,7 @@ public class ServletConfig implements WebMvcConfigurer {
     @Bean
     public MultipartResolver multipartResolver() {
         StandardServletMultipartResolver resolver = new StandardServletMultipartResolver();
+
         return resolver;
     }
 }
