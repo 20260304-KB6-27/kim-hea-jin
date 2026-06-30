@@ -14,3 +14,31 @@ Content-Type: application/json
   "username": "admin",
   "password": "12345"
 }
+
+### 요청 URL, Header (토큰 만료시 401)
+GET http://localhost:8080/member/3
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAzMSwiZXhwIjoxNzgyNzk2MzMxLCJrZXkiOiJ2YWx1ZSJ9.T6zg1RpWINbV6DP07rUK3WNeE7w0NxIwHsRuZMJd7WwvJqzmcabyQ1EZ6dj89uTW8wum7ueNEOZLpgk83a7TmA
+
+### signature 일부분 지운 후 요청 -> Malformed JWT
+GET http://localhost:8080/member/3
+Authorization: Bearer JhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ1MywiZXhwIjoxNzgyNzk3NzUzLCJrZXkiOiJ2YWx1ZSJ9.H2r-kbkmo_OaSiYPSnBA4W2Bt71mtdZMMlqwuMBXtd_bb5_TXNvCsuhUTIU-I6PmTkrzDTyTDyQkhLeQQYkLEg
+
+
+### 토큰 없는 요청 -> 401(Full authentication is required to access this resource)
+GET http://localhost:8080/member/3
+
+### 권한 없는 요청
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user3",
+  "password": "1234"
+}
+
+### eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM4MywiZXhwIjoxNzgyNzk4NjgzLCJrZXkiOiJ2YWx1ZSJ9.-wx91e4NwmVHaRMMndFq7z--nJM5W_aIRbxlSbFXKWGD2Ejqi_Fpe_tdgngXzRvdmtivweY75z1PA8AmQ2jUWQ
+
+### 일반 회원 토큰으로 admin 권한의 url에 요청 -> 403 (권한이 부족합니다.).
+
+GET http://localhost:8080/security/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM4MywiZXhwIjoxNzgyNzk4NjgzLCJrZXkiOiJ2YWx1ZSJ9.-wx91e4NwmVHaRMMndFq7z--nJM5W_aIRbxlSbFXKWGD2Ejqi_Fpe_tdgngXzRvdmtivweY75z1PA8AmQ2jUWQ
