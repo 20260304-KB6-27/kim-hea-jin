@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="MyBatisMapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ohgiraffers-bear&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/20260304-KB7-27/kim-hea-jin.git",
+    "accountId": "800aadd7-bfb9-47e5-99f9-cb8f4230de95"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.8.13/9259dced7b1cc161a8d5feba183f6561e65d9dfe/spring-security-web-5.8.13-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.3.37/c0dd07c3cea4a1c4d2333a11a07f707cc3819aea/spring-beans-5.3.37-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3Fc67KVeo1769fNTFQhoBNs0vQf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build backend.executor": "Run",
+    "Gradle.Build security-form.executor": "Run",
+    "Gradle.Build security-jwt.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.JwtProcessorTest.generateToken.executor": "Run",
+    "Gradle.SecurityConfigTest.passwordEncoder.executor": "Run",
+    "Gradle.UserDetailsMapperTest.get.executor": "Run",
+    "Gradle.security-jwt [build].executor": "Run",
+    "HTTP Request.logintest | #1.executor": "Run",
+    "HTTP Request.logintest | #2.executor": "Run",
+    "HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w.executor": "Run",
+    "HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA.executor": "Run",
+    "HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA.executor": "Run",
+    "HTTP Request.logintest | 권한 문제 테스트 (인가문제).executor": "Run",
+    "HTTP Request.logintest | 성공.executor": "Run",
+    "HTTP Request.logintest | 토큰없이 요청 보내기 -> CustomAuthenticationEntryPoint 에서 처리.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Tomcat Server.Tomcat 9.0.118.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.1181.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/bear/01_Lecture_Source/08_Spring_Vue/backend/src/main/webapp/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.scoula.member.controller" />
+      <recent name="org.scoula.security.util" />
+      <recent name="org.scoula.security.account.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\bear\01_Lecture_Source\08_Spring_Vue\backend\src\main\webapp\resources" />
+      <recent name="C:\bear\01_Lecture_Source\08_Spring_Vue\backend\src\main\resources\org\scoula" />
+      <recent name="C:\bear\01_Lecture_Source\08_Spring_Vue\backend\src\main\java\org\scoula" />
+      <recent name="C:\bear\01_Lecture_Source\08_Spring_Vue\backend\src\main\java\org\scoula\exception" />
+      <recent name="C:\bear\01_Lecture_Source\07_Spring\security-form\src\main\webapp\WEB-INF\views\security" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.scoula.security.util" />
+      <recent name="org.scoula.security.account.mapper" />
+      <recent name="org.scoula.security.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.scoula.config" />
+      <recent name="org.scoula.security.handler" />
+      <recent name="org.scoula.security.account.domain" />
+      <recent name="org.scoula.security.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Tomcat 9.0.118" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" value="STOPPED" />
+              <entry key="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA" value="STOPPED" />
+              <entry key="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA" value="STOPPED" />
+              <entry key="logintest | 권한 문제 테스트 (인가문제)" value="STOPPED" />
+              <entry key="logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.118">
+    <configuration name="logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | 권한 문제 테스트 (인가문제)" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="권한 문제 테스트 (인가문제)" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" index="8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/logintest.http" executionIdentifier="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.118" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.118" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.scoula : backend-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="55587d46-126f-4c7a-8c73-e803ca4d6f08" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64931" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.scoula : backend-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" />
+      <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA" />
+      <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA" />
+      <item itemvalue="HTTP Request.logintest | 권한 문제 테스트 (인가문제)" />
+      <item itemvalue="HTTP Request.logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.118" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w" />
+        <item itemvalue="HTTP Request.logintest | 권한 문제 테스트 (인가문제)" />
+        <item itemvalue="HTTP Request.logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리" />
+        <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA" />
+        <item itemvalue="HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="" />
+      <created>1782361842923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782361842923</updated>
+      <workItem from="1782361844887" duration="7326000" />
+      <workItem from="1782432177695" duration="302000" />
+      <workItem from="1782438496895" duration="7569000" />
+      <workItem from="1782703614169" duration="2798000" />
+      <workItem from="1782708360486" duration="7968000" />
+      <workItem from="1782790422214" duration="14277000" />
+      <workItem from="1782864586746" duration="1830000" />
+      <workItem from="1782879305721" duration="7356000" />
+      <workItem from="1782967216776" duration="6739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
