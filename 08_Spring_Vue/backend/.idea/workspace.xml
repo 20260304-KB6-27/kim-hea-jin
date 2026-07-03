@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="" />
+    <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../07_Spring/security-jwt.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/utils/UploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/utils/UploadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/authApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/authApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/LogoutMenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/LogoutMenuItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/auth/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/auth/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/counter.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,12 +71,12 @@
     &quot;assignee&quot;: &quot;Ohgiraffers-bear&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/20260304-KB7-27/kim-hea-jin.git",
-    "accountId": "800aadd7-bfb9-47e5-99f9-cb8f4230de95"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/20260304-KB7-27/kim-hea-jin.git&quot;,
+    &quot;accountId&quot;: &quot;800aadd7-bfb9-47e5-99f9-cb8f4230de95&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.8.13/9be283746b8c1cae03b3bbd9a55fbe593035e52b/spring-security-core-5.8.13-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="SKIP_INSPECTION" />
@@ -93,54 +109,54 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build backend.executor": "Run",
-    "Gradle.Build security-form.executor": "Run",
-    "Gradle.Build security-jwt.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.JwtProcessorTest.generateToken.executor": "Run",
-    "Gradle.SecurityConfigTest.passwordEncoder.executor": "Run",
-    "Gradle.UserDetailsMapperTest.get.executor": "Run",
-    "Gradle.security-jwt [build].executor": "Run",
-    "HTTP Request.logintest | #1.executor": "Run",
-    "HTTP Request.logintest | #2.executor": "Run",
-    "HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w.executor": "Run",
-    "HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA.executor": "Run",
-    "HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA.executor": "Run",
-    "HTTP Request.logintest | 권한 문제 테스트 (인가문제).executor": "Run",
-    "HTTP Request.logintest | 성공.executor": "Run",
-    "HTTP Request.logintest | 토큰없이 요청 보내기 -> CustomAuthenticationEntryPoint 에서 처리.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Tomcat Server.Tomcat 9.0.118.executor": "Run",
-    "Tomcat Server.Tomcat 9.0.1181.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/bear/01_Lecture_Source/08_Spring_Vue/backend/src/main/webapp/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build backend.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build security-form.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build security-jwt.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JwtProcessorTest.generateToken.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SecurityConfigTest.passwordEncoder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserDetailsMapperTest.get.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.security-jwt [build].executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMyIsImlhdCI6MTc4Mjc5ODM3OSwiZXhwIjoxNzgyNzk4Njc5LCJrZXkiOiJ2YWx1ZSJ9.UJtU8KxmGq5DBovVirXrZzaODvPDUDQXRkKKJawaKVZDLEpOSAtq9VNTEpmp2hGNzDOb7BSuTM8oHOCvYSNO1w.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NjAyMywiZXhwIjoxNzgyNzk2MzIzLCJrZXkiOiJ2YWx1ZSJ9.-qjkix_deAKfQZttIuxzDkGXB5ahjRW9YTrqFUBqQ3YAX4ZgDUS608A3GUsQgQvN7sQiXfqqO1lP_j9OZmKwbA.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4Mjc5NzQ0OCwiZXhwIjoxNzgyNzk3NzQ4LCJrZXkiOiJ2YWx1ZSJ9.JWmH1EvH0NwVg24D5ENmpuvabYXel3eSVfU7woeikXOh2xq25yyvh1_C5XTKKg8kzWtQ5WJQO6dP4OwzibtayA.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | 권한 문제 테스트 (인가문제).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | 성공.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.logintest | 토큰없이 요청 보내기 -&gt; CustomAuthenticationEntryPoint 에서 처리.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.118.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.1181.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/bear/01_Lecture_Source/08_Spring_Vue/backend/src/main/webapp/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.scoula.member.controller" />
@@ -210,6 +226,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.118" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.118" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/swagger-ui.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : org.scoula : backend-1.0-SNAPSHOT.war">
@@ -338,6 +355,8 @@
       <workItem from="1782864586746" duration="1830000" />
       <workItem from="1782879305721" duration="7356000" />
       <workItem from="1782967216776" duration="6739000" />
+      <workItem from="1783051919136" duration="3933000" />
+      <workItem from="1783060196141" duration="17000" />
     </task>
     <servers />
   </component>
