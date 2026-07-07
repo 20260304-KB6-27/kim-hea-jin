@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2bd2e7-8395-42f0-b083-75f1aa1134ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../07_Spring/security-jwt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scoula/utils/UploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scoula/utils/UploadFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/api/authApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/authApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuGroup.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/AccountMenuItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/LogoutMenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/layouts/menu/LogoutMenuItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/HomePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/auth/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/auth/LoginPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/counter.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,6 +343,7 @@
       <workItem from="1782967216776" duration="6739000" />
       <workItem from="1783051919136" duration="3933000" />
       <workItem from="1783060196141" duration="17000" />
+      <workItem from="1783296645702" duration="171000" />
     </task>
     <servers />
   </component>

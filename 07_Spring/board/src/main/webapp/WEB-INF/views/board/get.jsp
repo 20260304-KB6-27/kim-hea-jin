@@ -20,6 +20,7 @@
                 <i class="fa-solid fa-floppy-disk"></i>
                     ${file.filename} (${file.fileSize})<br>
             </a>
+            <img src="/board/download/${file.no}" style="max-width: 100%; max-height: 500px;">
         </div>
     </c:forEach>
 </div>

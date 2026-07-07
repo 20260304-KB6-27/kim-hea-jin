@@ -73,7 +73,7 @@ public class BoardServiceImpl implements BoardService {
 
                 // 2. 데이터베이스에 저장
                 BoardAttachmentVO attach = BoardAttachmentVO.of(part, dno, uploadPath);  // VO 객체 생성
-                boardMapper.createAttackment(attach);  // mybatis mapping
+                boardMapper.createAttachment(attach);  // mybatis mapping
 
             } catch (IOException e) {
                 throw new RuntimeException();  // 예외 발생 시 @Transaction에서 감지해 Rollback

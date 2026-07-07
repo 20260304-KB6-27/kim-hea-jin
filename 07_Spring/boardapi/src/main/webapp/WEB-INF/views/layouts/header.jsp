@@ -18,4 +18,4 @@
 
 <%@ include file="menu.jsp"%>
 
-<div class="container my-5">
+<div class="container my-5"></div>

@@ -1,6 +1,8 @@
 import { useAuthStore } from '@/stores/auth';
 import axios from 'axios';
-import { useRouter } from 'vue-router';
+// import { useRouter } from 'vue-router';
+// useRouter: Vue 컴포넌트 전용
+import router from '@/router';
 
 const instance = axios.create({
   timeout: 1000, // 요청 타임아웃

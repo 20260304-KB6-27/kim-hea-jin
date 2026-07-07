@@ -18,44 +18,44 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class BoardDTO {
-    private Long no;
-    private String title;
-    private String content;
-    private String writer;
-    private Date regDate;
-    private Date updateDate;
+  private Long no;
+  private String title;
+  private String content;
+  private String writer;
+  private Date regDate;
+  private Date updateDate;
 
-    // db에 저장된 파일 내용
-    private List<BoardAttachmentVO> attaches;
+  // db에 저장된 파일 내용
+  private List<BoardAttachmentVO> attaches;
 
-    // 실제 업로드 될 MultipartFile 목록 (client에서 전달받음)
-    List<MultipartFile> files = new ArrayList<>();
+  // 실제 업로드 될 MultipartFile 목록 (client에서 전달받음)
+  List<MultipartFile> files = new ArrayList<>();
 
-    // VO  DTO 변환
-        public static BoardDTO of(BoardVO vo) {
-            return vo == null ? null : BoardDTO.builder()
-                    .no(vo.getNo())
-                    .title(vo.getTitle())
-                    .content(vo.getContent())
-                    .writer(vo.getWriter())
-                    .regDate(vo.getRegDate())
-                    .updateDate(vo.getUpdateDate())
-                    .attaches(vo.getAttaches())
-                    .build();
-        }
+  // VO  DTO 변환
+  public static BoardDTO of(BoardVO vo) {
+    return vo == null ? null : BoardDTO.builder()
+            .no(vo.getNo())
+            .title(vo.getTitle())
+            .content(vo.getContent())
+            .writer(vo.getWriter())
+            .regDate(vo.getRegDate())
+            .updateDate(vo.getUpdateDate())
+            .attaches(vo.getAttaches())
+            .build();
+  }
 
 
-        // DTO  VO 변환
-        public BoardVO toVo() {
-            return BoardVO.builder()
-                    .no(no)
-                    .title(title)
-                    .content(content)
-                    .writer(writer)
-                    .regDate(regDate)
-                    .updateDate(updateDate)
-                    .attaches(attaches)
-                    .build();
-        }
-    }
+  // DTO  VO 변환
+  public BoardVO toVo() {
+    return BoardVO.builder()
+            .no(no)
+            .title(title)
+            .content(content)
+            .writer(writer)
+            .regDate(regDate)
+            .updateDate(updateDate)
+            .attaches(attaches)
+            .build();
+  }
+}
 

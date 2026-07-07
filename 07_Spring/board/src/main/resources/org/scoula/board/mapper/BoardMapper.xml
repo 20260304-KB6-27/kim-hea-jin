@@ -15,7 +15,7 @@
     </insert>
 
     <!-- 첨부파일 DB에 저장 -->
-    <insert id="createAttackment">
+    <insert id="createAttachment">
         insert into tbl_board_attachment_ex(filename, path, content_type, size, bno)
         values (#{filename}, #{path}, #{contentType}, #{size}, #{bno})  <!-- BoardAttachmentVO.java 필드명 -->
     </insert>
