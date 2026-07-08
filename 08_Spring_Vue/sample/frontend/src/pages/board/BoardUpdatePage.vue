@@ -1,7 +1,11 @@
 <script setup>
-import { ref, reactive } from "vue";
+import { ref, reactive, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import boardApi from "@/api/boardApi";
+
+// Toast UI Editor 사용 
+import '@toast-ui/editor/dist/toastui-editor.css';
+import Editor from '@toast-ui/editor';
 
 const cr = useRoute();
 const router = useRouter();
@@ -11,6 +15,9 @@ const article = reactive({}); // 수정할 게시글 데이터
 const attachments = ref([]); // 첨부파일 목록
 const orgArticle = ref({}); // 원본 게시글 데이터 (리셋용)
 const files = ref(null);
+
+const editorContainer = ref(null); // 에디터가 그려질 div 요소를 가리킴
+let editorInstance = null; // 생성된 에디터 객체를 담을 변수
 
 // 취소 버튼 - 상세 페이지로 복귀
 const back = () => {
@@ -35,7 +42,12 @@ const removeFile = async (fileNo, filename) => {
 const submit = async () => {
   if (!confirm("수정할까요?")) return;
 
-  if (files.value.files.length > 0) {
+  // 생성된 에디터 인스턴스에서 HTML 내용을 가져와 세팅
+  if (editorInstance) {
+    article.content = editorInstance.getHTML();
+  }
+
+  if (files.value && files.value.files.length > 0) {
     article.files = files.value.files;
   }
 
@@ -53,18 +65,43 @@ const reset = () => {
   article.title = orgArticle.value.title;
   article.writer = orgArticle.value.writer;
   article.content = orgArticle.value.content;
-  console.log(article);
+  
+  // 에디터 내용도 원본 데이터로 복구
+  if (editorInstance) {
+    editorInstance.setHTML(orgArticle.value.content || '');
+  }
 };
 
 // 데이터 로드
 const load = async () => {
   const data = await boardApi.get(no);
   orgArticle.value = { ...data }; // 원본 데이터 복사
-  attachments.value = data.attaches;
-  reset();
+  attachments.value = data.attaches || [];
+  
+  // reactive 객체에 데이터 바인딩
+  article.no = data.no;
+  article.title = data.title;
+  article.writer = data.writer;
+  article.content = data.content;
+
+  // 데이터를 다 불러온 후 에디터에 내용 삽입
+  if (editorInstance) {
+    editorInstance.setHTML(data.content || '');
+  }
 };
 
-load();
+// 화면 렌더링 직후 에디터 초기화
+onMounted(() => {
+  editorInstance = new Editor({
+    el: editorContainer.value,
+    height: '500px',
+    initialEditType: 'wysiwyg',
+    previewStyle: 'vertical',
+  });
+
+  // 에디터 세팅이 끝난 후 데이터를 불러옵니다.
+  load();
+});
 </script>
 
 <template>
@@ -109,16 +146,10 @@ load();
       />
     </div>
 
-    <!-- 내용 수정 -->
+    <!-- 내용 수정 (빈 div에 에디터 마운트) -->
     <div class="mb-3 mt-3">
-      <label for="content" class="form-label">내용</label>
-      <textarea
-        class="form-control"
-        placeholder="내용"
-        id="content"
-        v-model="article.content"
-        rows="10"
-      ></textarea>
+      <label class="form-label">내용</label>
+      <div ref="editorContainer"></div>
     </div>
 
     <!-- 버튼 영역 -->
@@ -129,7 +160,7 @@ load();
       <button type="button" class="btn btn-primary me-3" @click="reset">
         <i class="fa-solid fa-undo"></i> 취소
       </button>
-      <button class="btn btn-primary" @click="back">
+      <button type="button" class="btn btn-primary" @click="back">
         <i class="fa-solid fa-arrow-left"></i> 돌아가기
       </button>
     </div>
